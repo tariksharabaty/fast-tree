@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "id": "fasttree",
+  "version": "${version}",
+  "name": "Fast Tree",
+  "description": "Chop the trees faster, faster, faster!",
+  "authors": [
+    "Tarek Sharabaty",
+    "Oidioom"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/fasttree/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.oidioomstudio.fasttree.FastTreeMod"
+    ],
+    "client": [
+      "com.oidioomstudio.fasttree.client.FastTreeClientMod"
+    ],
+    "modmenu": [
+      "com.oidioomstudio.fasttree.client.ModMenuIntegration"
+    ]
+  },
+  "custom": {
+    "modmenu": {
+      "links": {
+        "modmenu.instagram.lordotarik": "https://www.instagram.com/tariksby",
+        "modmenu.instagram.oidioom": "https://www.instagram.com/oidioom"
+      }
+    }
+  },
+  "suggests": {
+    "modmenu": "*"
+  },
+  "depends": {
+    "fabricloader": ">=0.16.10",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": "*",
+    "olib": ">=0.0.1"
+  }
+}
